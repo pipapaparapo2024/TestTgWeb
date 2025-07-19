@@ -1,11 +1,11 @@
-import { FC } from 'react'
+import React from 'react'
 import { Header } from './components/Header'
 import { ChatList } from './components/ChatList'
 import { ChatWindow } from './components/ChatWindow'
 import { Sidebar } from './components/Sidebar'
 import './App.css'
 
-export const App: FC = () => {
+export const App: React.FC = () => {
   return (
     <div className="app">
       <Header />

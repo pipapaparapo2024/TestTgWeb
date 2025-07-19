@@ -1,4 +1,4 @@
-import { FC, useState } from 'react'
+import React, { useState } from 'react'
 
 interface Message {
   id: number
@@ -39,7 +39,7 @@ const mockMessages: Message[] = [
   }
 ]
 
-export const ChatWindow: FC = () => {
+export const ChatWindow: React.FC = () => {
   const [newMessage, setNewMessage] = useState('')
 
   const handleSendMessage = () => {
