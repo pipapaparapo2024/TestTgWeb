@@ -9,6 +9,7 @@ export const App: React.FC = () => {
   return (
     <div className="app">
       <Header />
+      
       <div className="main-content">
         <Sidebar />
         <ChatList />
