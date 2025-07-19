@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
+import type { FC } from 'react'
 
 interface Message {
   id: number
@@ -39,7 +40,7 @@ const mockMessages: Message[] = [
   }
 ]
 
-export const ChatWindow: React.FC = () => {
+export const ChatWindow: FC = () => {
   const [newMessage, setNewMessage] = useState('')
 
   const handleSendMessage = () => {

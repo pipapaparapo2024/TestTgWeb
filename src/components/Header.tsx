@@ -1,6 +1,6 @@
-import React from 'react'
+import type { FC } from 'react'
 
-export const Header: React.FC = () => {
+export const Header: FC = () => {
   return (
     <header className="header">
       <div className="header-content">

@@ -1,4 +1,4 @@
-import React from 'react'
+import type { FC } from 'react'
 
 interface Chat {
   id: number
@@ -44,7 +44,7 @@ const mockChats: Chat[] = [
   }
 ]
 
-export const ChatList: React.FC = () => {
+export const ChatList: FC = () => {
   return (
     <div className="chat-list">
       <div className="chat-list-header">

@@ -1,6 +1,6 @@
-import React from 'react'
+import type { FC } from 'react'
 
-export const Sidebar: React.FC = () => {
+export const Sidebar: FC = () => {
   return (
     <aside className="sidebar">
       <nav className="sidebar-nav">
